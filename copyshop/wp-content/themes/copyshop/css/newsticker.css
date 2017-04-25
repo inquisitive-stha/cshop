@@ -1,0 +1,58 @@
+/* liScroll style */
+
+.flashnews{
+	margin-bottom: 20px;
+	}
+
+.tickercontainer { 
+	height: 30px; 
+	margin: 0; 
+	padding: 0;
+	overflow: hidden; 
+}
+.tickercontainer .mask { /* that serves as a mask. so you get a sort of padding both left and right */
+	position: relative;
+	left: 10px;
+	top: 2px;
+	overflow: hidden;
+}
+ul.newsticker { /* that's your list */
+	position: relative;
+	left: 750px;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+
+}
+ul.newsticker li {
+	float: left; /* important: display inline gives incorrect results when you check for elem's width */
+	margin: 0;
+	padding: 0;
+	background: none;
+	list-style: disc;
+}
+ul.newsticker a {
+	white-space: nowrap;
+	padding: 0;
+	color: #444;
+	margin: 0 50px 0 0;
+	font-size: 12px;
+	text-decoration: none;
+}
+ul.newsticker a:hover{
+	color: #fd0237;}
+
+ul.newsticker span {
+	margin: 0 10px 0 0;
+}
+
+.flashnews span {
+  background: #999;
+  color: #fff;
+  display: inline-block;
+  float: left;
+  line-height: 30px;
+  padding: 0 10px;
+  font-size: 14px;
+}
+

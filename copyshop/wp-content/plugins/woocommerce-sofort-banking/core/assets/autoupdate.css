@@ -1,0 +1,49 @@
+/* Update notices */
+.plugins .wcsofort-plugin-notice {
+	margin: 10px 0 0 31px;
+}
+.plugins #woocommerce-sofort-banking.active th,
+.plugins #woocommerce-sofort-banking.active td,
+.plugins #woocommerce-sofort-banking + .plugin-update-tr .plugin-update,
+.plugins #sofort-banking-for-woocommerce .active th,
+.plugins #sofort-banking-for-woocommerce .active td,
+.plugins #sofort-banking-for-woocommerce  + .plugin-update-tr .plugin-update {
+	box-shadow: none;
+	-webkit-box-shadow: none;
+}
+.plugins #wcsofort-license.active td:first-child {
+	border-left: 4px solid #2ea2cc; /* blue */
+}
+.plugins #wcsofort-license.active.update td:first-child,
+.plugins #wcsofort-update.active.update td:first-child {
+	border-left: 4px solid #d54e21; /* red */
+}
+.plugins #wcsofort-update td {
+	padding-top: 0;
+}
+.plugins #wcsofort-update .wcsofort-plugin-upgrade-notice {
+	background: rgba( 213,78,33,.1 );
+	box-sizing: border-box;
+	border: 2px solid #d54e21;
+	border-radius: 3px;
+	padding: 6px 10px;
+}
+.plugins #wcsofort-update .wcsofort-plugin-upgrade-notice > *:first-child {
+	margin-top: 0 !important;
+}
+.plugins #wcsofort-update .wcsofort-plugin-upgrade-notice:before {
+	border-style: solid;
+	border-width: 0 8px 8px 8px;
+	border-color: transparent transparent #d54e21 transparent;
+	content: '';
+	display: block;
+	height: 0;
+	left: 13px;
+	margin: 0;
+	position: relative;
+	top: -16px;
+	width: 0;
+}
+.plugins #wcsofort-update .wcsofort-plugin-upgrade-notice ul {
+	list-style: inside disc;
+}

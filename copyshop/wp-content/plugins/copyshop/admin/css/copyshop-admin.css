@@ -1,0 +1,21 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+input[disabled]{
+    border: none !important;
+    background: none !important;
+    box-shadow: none;
+    color: black;
+}
+.form-control{padding-left: 5px !important;}
+.form-control.percent_50{width: 50%;}
+
+.loading{    font-size: 11px;
+    font-style: italic;
+    color: green;}
+
+.widefat{
+    margin-top: 10px !important;
+}

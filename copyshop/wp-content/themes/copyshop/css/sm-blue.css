@@ -1,0 +1,188 @@
+﻿.sm,.sm ul,.sm li{display:block;list-style:none;padding:0;margin:0;line-height:normal;direction:ltr;}
+ul.sm li{position:relative; }
+ul.sm a{position:relative;display:block; }
+ul.sm a.disabled{cursor:default;}
+ul.sm ul{position:absolute;top:-999999px;left:-40000px;width:150px;}
+ul.sm li{float:none; display:inline-block; }
+ul.sm-rtl{direction:rtl; }
+ul.sm-rtl li{float:right; }
+ul.sm ul li,ul.sm-vertical li{float:none; }
+ul.sm a{white-space:nowrap;}
+ul.sm ul a,ul.sm-vertical a{white-space:normal;}
+* html ul.sm-vertical li{float:left;width:100%;}
+* html ul.sm-vertical ul li{float:none;width:auto; }
+*:first-child+html ul.sm-vertical>li{float:left;width:100%; }
+ul.sm ul.sm-nowrap>li>a{ }
+ul.sm:after{content:"\00a0";display:block;height:0;font:0/0 serif;clear:both;visibility:hidden;overflow:hidden;}
+* html ul.sm{height:1px; }
+*:first-child+html ul.sm{min-height:1px; }
+ul.sm li *,ul.sm li *:before,ul.sm li *:after{-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box; }
+ul.sm{-webkit-tap-highlight-color:rgba(0,0,0,0); }
+
+
+/** customized menu css for better views*/
+/** customized menu css for better views*/
+/** customized menu css for better views*/
+ul.sm-blue ul, ul.sm-blue ul ul, ul.sm-blue ul ul ul, ul.sm-blue ul ul ul ul, ul.sm-blue ul ul ul ul ul 
+											{  top:38px!important; margin:0px; padding:0px; width:auto;}
+ul.sm-blue ul::before {
+	border-bottom: 7px solid #cc0000;
+	border-left: 7px solid transparent;
+	border-right: 7px solid transparent;
+	content: "";
+	left: 10px;
+	position: absolute;
+	top: -7px;
+	}											
+
+
+/** for arrow indicators **/											
+ul.sm-blue > li a span.sub-arrow {position:absolute;bottom:36%;left:95%; margin-left:-5px; 
+								  width:0; height:0; overflow:hidden; border-width:3px;
+								  border-style:solid dashed dashed dashed; border-color:#eee transparent transparent transparent;}
+
+/** for scroll when menu item is long **/
+ul.sm-blue span.scroll-up, ul.sm-blue span.scroll-down { position:absolute; display:none; visibility:hidden; overflow:hidden; 
+													 	 background:#000; height:60px; }
+ul.sm-blue span.scroll-up-arrow, ul.sm-blue span.scroll-down-arrow {position:absolute;top:-2px;left:50%;margin-left:-8px;width:0;height:0;
+																overflow:hidden;border-width:8px; border-style:dashed dashed solid dashed;
+																border-color:transparent transparent #fff transparent;}
+ul.sm-blue span.scroll-down-arrow {top:6px;border-style:solid dashed dashed dashed;border-color:#fff transparent transparent transparent;}
+
+/** for fixing dropdown width **/
+.sm-nowrap 	{ width:200px!important;}
+.sm-nowrap li { width:200px!important;}
+
+/** for selected **/ 
+ul.sm-blue > li.selected {background: rgba(0,0,0,0.1);}
+ul.sm-blue > li.selected a { color:#fff; }
+ul.sm-blue > li.selected a:hover {background: none; color:#fff; }
+
+ul.sm-blue > li.selected > ul > li a {background:none; color:#fff;}
+ul.sm-blue > li.selected > ul > li a:hover{background:none; color:#fff;}
+ul.sm-blue > li.selected > ul > li > ul > li a {background:#fff; color:#333;}
+ul.sm-blue > li.selected > ul > li > ul > li > ul > li a {background:#fff; color:#fff;}
+ul.sm-blue > li.selected > ul > li > ul > li > ul > li > ul > li a {background:#fff; color:#fff;}
+
+
+
+/** base level **/
+ul.sm-blue {float:left; background:transparent;}
+
+
+ul.sm-blue > li {float:left; width:auto; padding:0px; margin:0px 0px; background: none; position: relative; z-index: 9999; }
+
+/*.navigation ul.sm-blue > li {float: none;}*/
+
+ul.sm-blue > li a {float:left; text-transform: uppercase;  width:auto; padding: 12px 15px;  font-size:12px; color: #fff; text-decoration:none; border-radius:0px; font-weight: 600;
+				    }
+
+/** base level no highlights no hover**/
+/** base level no highlights no hover**/
+ul.sm-blue > li:hover {background:rgba(0,0,0,0.1);}
+ul.sm-blue > li a.highlighted {background:none; color:#fff;}
+ul.sm-blue > li a:hover { color: #fff;}
+
+ul.sm-blue > li > ul > li a.highlighted {background: none; color:#aaa; }
+ul.sm-blue > li > ul > li a:hover {background:none; color:#fff;}
+ul.sm-blue > li > ul > li a {font-size:13px; color:#aaa;}
+
+/** first level dropdown **/
+ul.sm-blue > li > ul { background:#cc0000; box-shadow:0 0 2px rgba(0,0,0,0.3); }
+ul.sm-blue > li > ul > li { float:left; width:100%; margin:0px; padding:0px; border-bottom: 1px solid #ddd;}
+ul.sm-blue > li > ul > li a {float:left; width:85%; margin:0px; padding:7px 7.5%; color:#aaa; text-decoration:none;}
+
+/** second level dropdown **/
+ul.sm-blue > li > ul > li > ul { background:#fff;  box-shadow:0 0 10px #666;}
+ul.sm-blue > li > ul > li > ul > li	 { float:left; width:100%; margin:0px; padding:0px;  }
+ul.sm-blue > li > ul > li > ul > li a {float:left; width:85%; margin:0px; padding:7px 7.5%; color:#000; text-decoration:none;}
+
+/** third level dropdown **/
+ul.sm-blue > li > ul > li > ul > li > ul { background:#fff;  box-shadow:0 0 10px #666;}
+ul.sm-blue > li > ul > li > ul > li	> ul > li { float:left; width:100%; margin:0px; padding:0px; }
+ul.sm-blue > li > ul > li > ul > li > ul > li a {float:left; width:85%; margin:0px; padding:7px 7.5%; 
+												 color:#000; text-decoration:none;}
+
+/** fourth level dropdown **/
+ul.sm-blue > li > ul > li > ul > li > ul > li > ul	{ background:#fff;  box-shadow:0 0 10px #666;}
+ul.sm-blue > li > ul > li > ul > li	> ul > li > ul > li { float:left; width:100%; margin:0px; padding:0px;  }
+ul.sm-blue > li > ul > li > ul > li > ul > li > ul > li a {float:left; width:85%; margin:0px; padding:7px 7.5%; 
+														   color:#000; text-decoration:none;}
+
+
+/** Fifth level dropdown **/
+ul.sm-blue > li > ul > li > ul > li > ul > li > ul > li > ul { background:#fff;  box-shadow:0 0 10px #666;}
+ul.sm-blue > li > ul > li > ul > li	> ul > li > ul > li > ul > li { float:left; width:100%; margin:0px; padding:0px; }
+ul.sm-blue > li > ul > li > ul > li > ul > li > ul > li > ul > li a {float:left; width:85%; margin:0px; padding:7px 7.5%; 
+																	  color:#000; text-decoration:none;}
+
+																	  
+
+
+																	  
+@media screen and (min-width: 969px) and (max-width: 1100px){
+ul.sm-blue > li a {
+  padding: 6px 12px;}
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 968px){
+
+ul.sm-blue > li a { font-size:13px; text-transform: none; padding: 7px 14px;}
+
+ul.sm-blue > li {margin: 0;}
+}
+
+
+@media screen and (max-width: 767px) {
+
+
+
+.sm-nowrap    {width:100%!important;}
+.sm-nowrap li {width:100%!important;}
+/* The following will make the sub menus collapsible for small screen devices (it's not recommended editing these) */
+
+.navigation ul.sm-blue {
+  text-align:left;
+}
+
+ul.sm-blue{width:98%; margin:0px; padding:0px;}
+
+ul.sm-blue ul { display:none;position:static !important;top:auto !important;  left:auto !important;margin-left:0 !important;
+				margin-top:0 !important; width:auto !important;min-width:0 !important;max-width:none !important; background:#f1f1f1!important;}
+			   
+/** first level **/
+ul.sm-blue > li{ width:100%; float:left; margin: 4px 10px; border: 0;}
+ul.sm-blue > li a{ width:90%; float:left; padding:5px 5%;}
+
+/** second level **/
+ul.sm-blue > li > ul > li > a{ width:90%; padding:10px 5%; background:#f1f1f1;
+							   color:#aaa;}
+
+/** third level **/
+ul.sm-blue > li > ul > li > ul > li > a{ width:90%; padding:10px 5%; background:#ccc;
+										 color:#000;}
+
+/** fourth level **/
+ul.sm-blue > li > ul > li > ul > li > ul > li > a{ width:90%; padding:10px 5%; background:#ccc;  
+												  color:#000;}
+
+/** fifth level **/
+ul.sm-blue > li > ul > li > ul > li > ul > li > ul > li > a{ width:90%; padding:10px 5%; background:#ccc;
+															color:#000;}
+	
+ul.sm-blue > li> a, ul.sm-blue ul.sm-nowrap > li > a{white-space:normal;}
+ul.sm-blue iframe {display:none;}
+
+
+ul.sm-blue ul::before {
+	display: none;
+	}
+	
+
+	
+
+
+
+}																	  
+																	  

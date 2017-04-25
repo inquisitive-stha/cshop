@@ -1,0 +1,323 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce SOFORT Banking v1.1.3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-01-28 00:27+0530\n"
+"PO-Revision-Date: 2013-02-26 13:15:29+0000\n"
+"Last-Translator: Boris Glumpler <boris@shabushabu.eu>\n"
+"Language-Team: Borisn Glumpler <boris@shabushabu.eu>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: CSL v1.x\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-Country: UNITED STATES\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: core/woogate-core.php:79
+#@ woogate
+msgid "Enable/Disable"
+msgstr ""
+
+#: core/woogate-core.php:81
+#@ woogate
+msgid "Enable SOFORT Banking"
+msgstr ""
+
+#: core/woogate-core.php:85
+#@ woogate
+msgid "Title"
+msgstr ""
+
+#: core/woogate-core.php:87
+#@ woogate
+msgid "This controls the title which the user sees during checkout."
+msgstr ""
+
+#: core/woogate-core.php:88
+#@ woogate
+msgid "SOFORT Banking"
+msgstr ""
+
+#: core/woogate-core.php:91
+#@ woogate
+msgid "Description"
+msgstr ""
+
+#: core/woogate-core.php:93
+#@ woogate
+msgid "This controls the description which the user sees during checkout."
+msgstr ""
+
+#: core/woogate-core.php:94
+#@ woogate
+msgid "You can pay with your SOFORT Banking-enabled bank account."
+msgstr ""
+
+#: core/woogate-core.php:97
+#@ woogate
+msgid "Config Key"
+msgstr ""
+
+#: core/woogate-core.php:99
+#@ woogate
+msgid "You need to enter your configkey or userid:projektid:apikey"
+msgstr ""
+
+#: core/woogate-core.php:103
+#@ woogate
+msgid "Notification email"
+msgstr ""
+
+#: core/woogate-core.php:105
+#@ woogate
+msgid "Enter your email address if you would like to receive status changes for payments."
+msgstr ""
+
+#: core/woogate-core.php:131
+#@ woogate
+msgid "SOFORT Banking"
+msgstr ""
+
+#: core/woogate-core.php:132
+#@ woogate
+msgid "SOFORT Banking lets you integrate SOFORT Banking into your shop."
+msgstr ""
+
+#: core/woogate-core.php:142
+#@ woogate
+msgid "Gateway Disabled"
+msgstr ""
+
+#: core/woogate-core.php:143
+#@ woogate
+msgid "SOFORT Banking does not support your store currency."
+msgstr ""
+
+#: core/woogate-core.php:212
+#: core/woogate-core.php:221
+#, php-format
+#@ woogate
+msgid "Payment %s via SOFORT Banking."
+msgstr ""
+
+#: core/woogate-core.php:217
+#, php-format
+#@ woogate
+msgid "Payment failed via SOFORT Banking (%s)."
+msgstr ""
+
+#: core/woogate-core.php:224
+#@ woogate
+msgid "Order refunded/reversed"
+msgstr ""
+
+#: core/woogate-core.php:225
+#, php-format
+#@ woogate
+msgid "Order #%s has been marked as refunded - : %s"
+msgstr ""
+
+#: core/woogate-core.php:228
+#, php-format
+#@ woogate
+msgid "Payment for order #%s refunded/reversed"
+msgstr ""
+
+#: core/woogate-core.php:233
+#, php-format
+#@ woogate
+msgid "Payment %s via SOFORT Banking (%s)."
+msgstr ""
+
+#: core/woogate-core.php:203
+#: core/woogate-core.php:238
+#@ woogate
+msgid "Payment via SOFORT Banking completed"
+msgstr ""
+
+#: core/woogate-core.php:301
+#@ woogate
+msgid "Thank you for your order, please click the button below to pay with SOFORT Banking."
+msgstr ""
+
+#: core/woogate-core.php:357
+#@ woogate
+msgid "Pay via SOFORT Banking"
+msgstr ""
+
+#: core/woogate-core.php:358
+#@ woogate
+msgid "Cancel order &amp; restore cart"
+msgstr ""
+
+#: core/woogate-core.php:109
+#@ woogate
+msgid "Trust pending payments"
+msgstr ""
+
+#: core/woogate-core.php:111
+#@ woogate
+msgid "Accept pending payments from sofort.com and complete order."
+msgstr ""
+
+#: core/woogate-core.php:115
+#@ woogate
+msgid "Debug"
+msgstr ""
+
+#: core/woogate-core.php:117
+#@ woogate
+msgid "Enable logging (<code>woocommerce/logs/sofortgateway.txt</code>). If you experience problems, you might have to create this file and set permissions to 0777."
+msgstr ""
+
+#: core/woogate-core.php:328
+#, php-format
+#@ woogate
+msgid "Order %s - %s"
+msgstr ""
+
+#: core/woogate-core.php:349
+#, php-format
+#@ woogate
+msgid "SOFORT Banking could not get contacted. Please contact the site admin at %s or choose another payment method."
+msgstr ""
+
+#: woo-includes/class-woothemes-plugin-updater.php:147
+#@ woothemes
+msgid "WooThemes Updates"
+msgstr ""
+
+#: woo-includes/class-woothemes-plugin-updater.php:167
+#@ woothemes
+msgid "WooThemes Plugin Updater"
+msgstr ""
+
+#: woo-includes/class-woothemes-plugin-updater.php:174
+#@ woothemes
+msgid "WooThemes Username"
+msgstr ""
+
+#: woo-includes/class-woothemes-plugin-updater.php:178
+#@ woothemes
+msgid "WooThemes Password"
+msgstr ""
+
+#: woo-includes/class-woothemes-plugin-updater.php:187
+#@ woothemes
+msgid "Login"
+msgstr ""
+
+#: woo-includes/class-woothemes-plugin-updater.php:238
+#@ woothemes
+msgid "Switch WooThemes Account"
+msgstr ""
+
+#: woo-includes/class-woothemes-plugin-updater.php:240
+#, php-format
+#@ woothemes
+msgid "You are currently logged in as %1$s. To switch to a different WooThemes account, please fill in the login details below."
+msgstr ""
+
+#: woo-includes/class-woothemes-plugin-updater.php:243
+#@ woothemes
+msgid "Update your Plugins"
+msgstr ""
+
+#: woo-includes/class-woothemes-plugin-updater.php:250
+#@ woothemes
+msgid "Login Error"
+msgstr ""
+
+#: woo-includes/class-woothemes-plugin-updater.php:252
+#@ woothemes
+msgid "The login details supplied are invalid. Please try again."
+msgstr ""
+
+#: woo-includes/class-woothemes-plugin-updater.php:262
+#@ woothemes
+msgid "Enable WooThemes Plugin Updates."
+msgstr ""
+
+#: woo-includes/class-woothemes-plugin-updater.php:264
+#, php-format
+#@ woothemes
+msgid "Please <a href=\"%1$s\">login</a> to enable automatic plugin updates."
+msgstr ""
+
+#: woo-includes/class-woothemes-plugin-updater.php:277
+#@ woothemes
+msgid "Hide This Message"
+msgstr ""
+
+#. translators: plugin header field 'Name'
+#: woocommerce-sofortgateway.php:0
+#@ woogate
+msgid "WooCommerce SOFORT Banking"
+msgstr ""
+
+#. translators: plugin header field 'PluginURI'
+#: woocommerce-sofortgateway.php:0
+#@ woogate
+msgid "http://woothemes.com/woocommerce"
+msgstr ""
+
+#. translators: plugin header field 'Description'
+#: woocommerce-sofortgateway.php:0
+#@ woogate
+msgid "Integrates SOFORT Banking by SOFORT Banking into WooCommerce"
+msgstr ""
+
+#. translators: plugin header field 'Author'
+#: woocommerce-sofortgateway.php:0
+#@ woogate
+msgid "BP Shop Dev Team"
+msgstr ""
+
+#. translators: plugin header field 'AuthorURI'
+#: woocommerce-sofortgateway.php:0
+#@ woogate
+msgid "http://rheinschmiede.de"
+msgstr ""
+
+#. translators: plugin header field 'Version'
+#: woocommerce-sofortgateway.php:0
+#@ woogate
+msgid "1.1.3"
+msgstr ""
+
+#: woocommerce-sofortgateway.php:205
+#, php-format
+#@ woogate
+msgid "WooCommerce SOFORT Banking requires WooCommerce to be installed. <a href=\"%s\">Download it now</a>!"
+msgstr ""
+
+#: woocommerce-sofortgateway.php:206
+#, php-format
+#@ woogate
+msgid "WooCommerce SOFORT Banking requires WooCommerce %s or higher. <a href=\"%s\">Upgrade now</a>!"
+msgstr ""
+
+#: woocommerce-sofortgateway.php:207
+#, php-format
+#@ woogate
+msgid "WooCommerce SOFORT Banking requires WordPress %s or higher. <a href=\"%s\">Upgrade now</a>!"
+msgstr ""
+
+#: woocommerce-sofortgateway.php:208
+#, php-format
+#@ woogate
+msgid "WooCommerce SOFORT Banking requires PHP %s or higher. Please ask your hosting company for support!"
+msgstr ""
+
+#: woocommerce-sofortgateway.php:223
+#@ woogate
+msgid "Options"
+msgstr ""
+
